@@ -1,0 +1,128 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: block;
+    height: 50px;
+}
+ nav ul {
+    list-style: none;
+    float: right;
+    display: block;
+    padding: 20px 5px ;
+}
+nav li {
+    display: inline;
+    margin: 5px;
+    padding: 5px;
+    font-size: 12px;
+   
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.main {
+    display: block;
+    text-align: center;
+}
+#img-box{
+    display: block;
+    text-align: center;
+    margin-top: 130px;
+}
+img {
+    max-width: 50%;
+}
+#search-box {
+    margin-top: 30px;
+    height: 45px;
+    width: 30%;
+    border-radius: 35px;
+    border: 1px solid rgb(200, 200, 200);
+    text-align: left;
+    position: relative;
+    margin: 25px auto ;
+}
+#search {
+    
+    background-color: transparent;
+    border:none;
+    width: 80%;
+    height: 90%;
+    position: absolute;
+    left: 60px;
+    top: 3px;
+
+}
+#search-box:hover {
+    box-shadow: 2px 2px 5px 1px rgb(200, 200, 200);
+    
+}
+svg{
+    margin: auto;
+    position: absolute;
+    top:15px;
+    left: 15px;
+    color: rgb(150, 1500, 150);
+}
+input[type= button] {
+    width: auto;
+    height: 40px;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 13px;
+    color: rgb(100 ,100, 100);
+    border-radius: 4px;
+}
+input[type= button]:hover{
+    border:1px solid rgb(150 ,150, 150);
+    color: black;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+    margin: 0;
+    color: rgb(100, 100, 100);
+    font-size: 13px;
+    background-color: rgb(245, 245, 245);
+
+
+}
+footer ul {
+    list-style: none;
+
+}
+footer li {
+    display: inline;
+    padding: 0 10px;
+}
+footer a {
+    color: rgb(100, 100, 100);
+}
+.left {
+    float: left;
+    margin: 0;
+    padding: 10px;
+    padding-left:20px;
+}
+.right {
+    float: right;
+    margin: 0;
+    padding: 10px;
+}
+.country{
+    padding: 10px 30px;
+}
+.country , .footer {
+    border-top: 1px solid rgb(230 ,230, 230);
+    width: 100%;
+
+    
+}
